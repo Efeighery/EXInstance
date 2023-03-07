@@ -10,7 +10,7 @@ workflows:
               only:
                 - main
 
-job:
+jobs:
   build:
     working_directory: ~/EXInstance
     docker:
